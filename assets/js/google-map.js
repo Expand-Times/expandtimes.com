@@ -11,7 +11,7 @@ function init() {
         scrollwheel: false,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(51.517228, -0.078778), // New York
+        center: new google.maps.LatLng(22.679618, 89.005373), // Satkhira
 
         // How you would like to style the map. 
         // This is where you would paste any style found on
@@ -30,9 +30,9 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(51.517228, -0.078778),
+        position: new google.maps.LatLng(22.679618, 89.005373),
         map: map,
-        title: 'Appmyil',
+        title: 'Expand Times',
         icon: 'assets/images/map-marker.png',
         animation: google.maps.Animation.BOUNCE
     });
