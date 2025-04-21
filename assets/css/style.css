@@ -5771,7 +5771,7 @@ button.tm-videobutton.tm-videobutton-lg span i {
 /* Widget Info */
 .widget-info-logo {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .widget-info p:last-of-type {
